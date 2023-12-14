@@ -20,3 +20,15 @@ int main() {
     // Solicitar al usuario que ingrese los detalles del estudiante
     printf("Ingrese el nombre del estudiante: ");
     fgets(estudiante.nombre, sizeof(estudiante.nombre), stdin);
+
+        printf("Ingrese la edad del estudiante: ");
+        scanf("%d", &estudiante.edad);
+
+        printf("Ingrese el promedio del estudiante: ");
+        scanf("%f", &estudiante.promedio);
+
+        // Mostrar los detalles del estudiante
+        mostrarEstudiante(&estudiante);
+
+        return 0;
+    }
