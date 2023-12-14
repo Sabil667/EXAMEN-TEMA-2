@@ -12,3 +12,11 @@ void mostrarEstudiante(const struct Estudiante* estudiante) {
     printf("Edad: %d \n", estudiante->edad);
     printf("Promedio: %.2f\n", estudiante->promedio);
 }
+
+int main() {
+    // Crear un estudiante de ejemplo
+    struct Estudiante estudiante;
+
+    // Solicitar al usuario que ingrese los detalles del estudiante
+    printf("Ingrese el nombre del estudiante: ");
+    fgets(estudiante.nombre, sizeof(estudiante.nombre), stdin);
