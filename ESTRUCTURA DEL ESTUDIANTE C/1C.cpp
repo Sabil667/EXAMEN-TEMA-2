@@ -30,5 +30,5 @@ int main() {
         // Mostrar los detalles del estudiante
         mostrarEstudiante(&estudiante);
 
-        return 0;
+
     }
