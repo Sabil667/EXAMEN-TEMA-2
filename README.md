@@ -48,3 +48,13 @@ La respuesta correcta es la B (permiten la creación de funciones y clases gené
 
 
 
+COMPARATIVA DEL PRIMER EJERCICIO.
+
+La sintaxis utilizada en ambos es diferente:
+
+En C++ se utiliza std::string para manejar cadenas de caracteres, mientras que en C las cadenas de caracteres se manejan como arreglos de caracteres usando char[] y para leerlas usamos la funcion fgets.Las funciones de entrada y de salida en C son scanf (entrada) y printf (salida) mientras que en C++ la de entrada es std::cin y de salida es std::cout.
+
+
+
+
+
