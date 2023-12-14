@@ -17,3 +17,14 @@ int main() {
     // Solicitar al usuario que ingrese los detalles del estudiante
     std::cout << "Ingrese el nombre del estudiante: ";
     std::getline(std::cin, estudiante.nombre);
+    std::cout << "Ingrese la edad del estudiante: ";
+    std::cin >> estudiante.edad;
+
+    std::cout << "Ingrese el promedio del estudiante: ";
+    std::cin >> estudiante.promedio;
+
+    // Mostrar los detalles del estudiante
+    mostrarEstudiante(estudiante);
+
+    return 0;
+}
